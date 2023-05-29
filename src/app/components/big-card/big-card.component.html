@@ -1,0 +1,18 @@
+<div class="container-big-card">
+  <div class="big-card_photo">
+    <img src="{{photoCover}}"
+    alt="Marvel"
+    height="200px">
+  </div>
+  <div class="big-card_title">
+    <h1><a  target="_blank" [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
+  </div>
+  <div class="big-card_description">
+      <p>
+        <a  target="_blank" [routerLink]="['content', Id]">
+         {{cardDescription}}
+       </a>
+      </p>
+  </div>
+
+</div>

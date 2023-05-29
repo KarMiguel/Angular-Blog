@@ -1,0 +1,17 @@
+.container-menu_bar{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container-menu_bar > ul{
+  display: flex;
+  flex-direction: row;
+}
+.container-menu_bar > ul > li{
+  list-style: none;
+  margin-right: 30px;
+}
+.container-menu_bar ul > li > a:hover {
+  filter: brightness(1.1);
+  font-weight: bold;
+
+}
